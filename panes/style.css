@@ -1,0 +1,25 @@
+img {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+#container {
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+#bottom {
+    position: absolute;
+}
+
+#top {
+    position: absolute;
+    overflow: hidden;
+}
+#slider {
+    position: absolute;
+    left: 590px;
+    height: 100%;
+    width: 10px;
+    background-color: gray;
+}
